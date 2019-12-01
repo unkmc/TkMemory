@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TkMemory.Tests", "TkMemory.Tests\TkMemory.Tests.csproj", "{8D2E4102-75F2-4F4B-BFA8-8963DD42DE9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{A93F7718-BE2A-495D-9655-1B19F0510600}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{3FEA4B58-C297-49E2-BB42-26A2525A0F89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectArtifacts", "ProjectArtifacts", "{F1E3C221-FA6D-47B2-9B36-98B39BBA24F0}"
+	ProjectSection(SolutionItems) = preProject
+		ProjectArtifacts\ClassicTK.CT = ProjectArtifacts\ClassicTK.CT
+		ProjectArtifacts\CommonAssemblyInfo.cs = ProjectArtifacts\CommonAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TkMemory.Domain", "TkMemory.Domain\TkMemory.Domain.csproj", "{C7597364-60B7-48DA-B358-08DB41F03197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TkMemory.Integration", "TkMemory.Integration\TkMemory.Integration.csproj", "{6BF6898B-81D7-4A98-8B6B-C5513295E8A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TkMemory.Application", "TkMemory.Application\TkMemory.Application.csproj", "{DB6D1EFC-2276-42D1-8F91-659440D6CA20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D2E4102-75F2-4F4B-BFA8-8963DD42DE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2E4102-75F2-4F4B-BFA8-8963DD42DE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2E4102-75F2-4F4B-BFA8-8963DD42DE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2E4102-75F2-4F4B-BFA8-8963DD42DE9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7597364-60B7-48DA-B358-08DB41F03197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7597364-60B7-48DA-B358-08DB41F03197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7597364-60B7-48DA-B358-08DB41F03197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7597364-60B7-48DA-B358-08DB41F03197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF6898B-81D7-4A98-8B6B-C5513295E8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF6898B-81D7-4A98-8B6B-C5513295E8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF6898B-81D7-4A98-8B6B-C5513295E8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF6898B-81D7-4A98-8B6B-C5513295E8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB6D1EFC-2276-42D1-8F91-659440D6CA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6D1EFC-2276-42D1-8F91-659440D6CA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6D1EFC-2276-42D1-8F91-659440D6CA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6D1EFC-2276-42D1-8F91-659440D6CA20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D2E4102-75F2-4F4B-BFA8-8963DD42DE9C} = {3FEA4B58-C297-49E2-BB42-26A2525A0F89}
+		{C7597364-60B7-48DA-B358-08DB41F03197} = {A93F7718-BE2A-495D-9655-1B19F0510600}
+		{6BF6898B-81D7-4A98-8B6B-C5513295E8A0} = {A93F7718-BE2A-495D-9655-1B19F0510600}
+		{DB6D1EFC-2276-42D1-8F91-659440D6CA20} = {A93F7718-BE2A-495D-9655-1B19F0510600}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FACF9DD7-71E7-4785-B95B-6DADF15D56FD}
+	EndGlobalSection
+EndGlobal

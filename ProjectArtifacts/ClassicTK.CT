@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="16">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>228</ID>
+      <Description>"Chat"</Description>
+      <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>008000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>346</ID>
+          <Description>"Most Recent Chat / Blue Spell Text"</Description>
+          <LastState RealAddress="4E88F400"/>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>100</Length>
+          <Unicode>1</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"ClassicTK.exe"+002FE788</Address>
+          <Offsets>
+            <Offset>12C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>464</ID>
+          <Description>"Most Recent Sage / Whisper"</Description>
+          <LastState RealAddress="0014595C"/>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>1000</Length>
+          <Unicode>1</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"ClassicTK.exe"+001C07D4</Address>
+          <Offsets>
+            <Offset>174</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>487</ID>
+      <Description>"Environment"</Description>
+      <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>008000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>281</ID>
+          <Description>"Map Name"</Description>
+          <LastState RealAddress="4E81F100"/>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>20</Length>
+          <Unicode>1</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"ClassicTK.exe"+002FE204</Address>
+          <Offsets>
+            <Offset>F8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>288</ID>
+          <Description>"Map X Coordinate"</Description>
+          <LastState Value="4" RealAddress="4DE7A2FC"/>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Offsets>
+            <Offset>FC</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>289</ID>
+          <Description>"Map Y Coordinate"</Description>
+          <LastState Value="5" RealAddress="4DE7A300"/>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Offsets>
+            <Offset>100</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>515</ID>
+          <Description>"Time"</Description>
+          <LastState Value="5" RealAddress="4E11E600"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>"ClassicTK.exe"+002FE168</Address>
+          <Offsets>
+            <Offset>F8</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>86</ID>
+      <Description>"Group"</Description>
+      <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>008000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>498</ID>
+          <Description>"Slot Size = 0x12C"</Description>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>800080</Color>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>40</ID>
+          <Description>"Group Size"</Description>
+          <LastState Value="0" RealAddress="4FB92CD4"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Offsets>
+            <Offset>3CB0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>87</ID>
+          <Description>"Slot 1"</Description>
+          <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>008000</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>99</ID>
+              <Description>"Name"</Description>
+              <LastState RealAddress="4FB8F240"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>000000</Color>
+              <VariableType>String</VariableType>
+              <Length>12</Length>
+              <Unicode>1</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>21C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>395</ID>
+              <Description>"UID"</Description>
+              <LastState Value="0" RealAddress="4FB8F23C"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>218</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>88</ID>
+              <Description>"Vita Current"</Description>
+              <LastState Value="0" RealAddress="4FB8F35C"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>338</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>18</ID>
+              <Description>"Vita Max"</Description>
+              <LastState Value="0" RealAddress="4FB8F358"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>334</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>89</ID>
+              <Description>"Mana Current"</Description>
+              <LastState Value="0" RealAddress="4FB8F364"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>340</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>19</ID>
+              <Description>"Mana Max"</Description>
+              <LastState Value="0" RealAddress="4FB8F360"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>33C</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>405</ID>
+          <Description>"Slot 2"</Description>
+          <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>008000</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>407</ID>
+              <Description>"Name"</Description>
+              <LastState RealAddress="4FB8F36C"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>000000</Color>
+              <VariableType>String</VariableType>
+              <Length>12</Length>
+              <Unicode>1</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>348</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>406</ID>
+              <Description>"UID"</Description>
+              <LastState Value="0" RealAddress="4FB8F368"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>344</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>409</ID>
+              <Description>"Vita Current"</Description>
+              <LastState Value="0" RealAddress="4FB8F488"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>464</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>408</ID>
+              <Description>"Vita Max"</Description>
+              <LastState Value="0" RealAddress="4FB8F484"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>460</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>411</ID>
+              <Description>"Mana Current"</Description>
+              <LastState Value="0" RealAddress="4FB8F490"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>46c</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>410</ID>
+              <Description>"Mana Max"</Description>
+              <LastState Value="0" RealAddress="4FB8F48C"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>468</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>412</ID>
+          <Description>"Slot 3"</Description>
+          <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>008000</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>414</ID>
+              <Description>"Name"</Description>
+              <LastState RealAddress="4FB8F498"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>000000</Color>
+              <VariableType>String</VariableType>
+              <Length>12</Length>
+              <Unicode>1</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>474</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>413</ID>
+              <Description>"UID"</Description>
+              <LastState Value="0" RealAddress="4FB8F494"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>470</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>416</ID>
+              <Description>"Vita Current"</Description>
+              <LastState Value="0" RealAddress="4FB8F4A0"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>47C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>415</ID>
+              <Description>"Vita Max"</Description>
+              <LastState Value="0" RealAddress="4FB8F49C"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>478</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>418</ID>
+              <Description>"Mana Current"</Description>
+              <LastState Value="0" RealAddress="4FB8F4A8"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>484</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>417</ID>
+              <Description>"Mana Max"</Description>
+              <LastState Value="0" RealAddress="4FB8F4A4"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>480</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>119</ID>
+      <Description>"Inventory"</Description>
+      <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>008000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>499</ID>
+          <Description>"Slot Size = 0x1FC"</Description>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>800080</Color>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>496</ID>
+          <Description>"Slot a"</Description>
+          <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>008000</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>508</ID>
+              <Description>"Base Address"</Description>
+              <LastState RealAddress="4FCF312E"/>
+              <Color>000000</Color>
+              <VariableType>String</VariableType>
+              <Length>1000</Length>
+              <Unicode>1</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>16410A</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>509</ID>
+              <Description>"Name (+0xA0)"</Description>
+              <LastState RealAddress="4FCF31CE"/>
+              <Color>000000</Color>
+              <VariableType>String</VariableType>
+              <Length>1000</Length>
+              <Unicode>1</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>1641AA</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>510</ID>
+              <Description>"Quantity (+0x1E2)"</Description>
+              <LastState Value="1" RealAddress="4FCF3310"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>1642EC</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>497</ID>
+          <Description>"Slot b"</Description>
+          <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>008000</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>460</ID>
+              <Description>"Base Address"</Description>
+              <LastState RealAddress="4FCF332A"/>
+              <Color>000000</Color>
+              <VariableType>String</VariableType>
+              <Length>1000</Length>
+              <Unicode>1</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>164306</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>461</ID>
+              <Description>"Name (+0xA0 )"</Description>
+              <LastState RealAddress="4FCF33CA"/>
+              <Color>000000</Color>
+              <VariableType>String</VariableType>
+              <Length>1000</Length>
+              <Unicode>1</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>1643A6</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>462</ID>
+              <Description>"Quantity (+0x1E2)"</Description>
+              <LastState Value="1" RealAddress="4FCF350C"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Offsets>
+                <Offset>1644E8</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>159</ID>
+      <Description>"Players"</Description>
+      <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>008000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>501</ID>
+          <Description>"Slot Size = 0x20C"</Description>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>800080</Color>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>472</ID>
+          <Description>"Number of Players On Screen"</Description>
+          <LastState Value="1" RealAddress="4E61FDC4"/>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"ClassicTK.exe"+002DD4AC</Address>
+          <Offsets>
+            <Offset>C</Offset>
+            <Offset>38</Offset>
+            <Offset>424</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>493</ID>
+          <Description>"Slot 1"</Description>
+          <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>008000</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>373</ID>
+              <Description>"Name"</Description>
+              <LastState RealAddress="4E84F27E"/>
+              <Color>000000</Color>
+              <VariableType>String</VariableType>
+              <Length>503</Length>
+              <Unicode>1</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>12E</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>478</ID>
+              <Description>"UID"</Description>
+              <LastState Value="3221225529" RealAddress="4E84F250"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>100</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>386</ID>
+              <Description>"Direction (0U 1R 2D 3L)"</Description>
+              <LastState Value="2" RealAddress="4E84F319"/>
+              <Color>000000</Color>
+              <VariableType>2 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>1C9</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>375</ID>
+              <Description>"X Coordinate"</Description>
+              <LastState Value="14" RealAddress="4E84F254"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>104</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>376</ID>
+              <Description>"Y Coordinate"</Description>
+              <LastState Value="9" RealAddress="4E84F258"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>108</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>479</ID>
+              <Description>"X Pixel"</Description>
+              <LastState Value="725" RealAddress="4E84F25C"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>10C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>480</ID>
+              <Description>"Y Pixel"</Description>
+              <LastState Value="438" RealAddress="4E84F260"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>110</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>494</ID>
+          <Description>"Slot 2"</Description>
+          <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>008000</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>377</ID>
+              <Description>"Name"</Description>
+              <LastState RealAddress="4E84F48A"/>
+              <Color>000000</Color>
+              <VariableType>String</VariableType>
+              <Length>503</Length>
+              <Unicode>1</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>33A</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>379</ID>
+              <Description>"UID"</Description>
+              <LastState Value="3221225528" RealAddress="4E84F45C"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>30C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>378</ID>
+              <Description>"Direction (0U 1R 2D 3L)"</Description>
+              <LastState Value="2" RealAddress="4E84F525"/>
+              <Color>000000</Color>
+              <VariableType>2 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>3D5</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>474</ID>
+              <Description>"X Coordinate"</Description>
+              <LastState Value="14" RealAddress="4E84F460"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>310</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>380</ID>
+              <Description>"Y Coordinate"</Description>
+              <LastState Value="5" RealAddress="4E84F464"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>314</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>481</ID>
+              <Description>"X Pixel"</Description>
+              <LastState Value="726" RealAddress="4E84F468"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>318</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>482</ID>
+              <Description>"Y Pixel"</Description>
+              <LastState Value="231" RealAddress="4E84F46C"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>31C</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>495</ID>
+          <Description>"Slot 3"</Description>
+          <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>008000</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>381</ID>
+              <Description>"Name"</Description>
+              <LastState RealAddress="4E84F696"/>
+              <Color>000000</Color>
+              <VariableType>String</VariableType>
+              <Length>503</Length>
+              <Unicode>1</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>546</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>383</ID>
+              <Description>"UID"</Description>
+              <LastState Value="2350" RealAddress="4E84F668"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>518</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>382</ID>
+              <Description>"Direction (0U 1R 2D 3L)"</Description>
+              <LastState Value="1" RealAddress="4E84F731"/>
+              <Color>000000</Color>
+              <VariableType>2 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>5E1</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>477</ID>
+              <Description>"X Coordinate"</Description>
+              <LastState Value="17" RealAddress="4E84F66C"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>51C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>384</ID>
+              <Description>"Y Coordinate"</Description>
+              <LastState Value="6" RealAddress="4E84F670"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>520</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>483</ID>
+              <Description>"X Pixel"</Description>
+              <LastState Value="905" RealAddress="4E84F674"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>524</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>484</ID>
+              <Description>"Y Pixel"</Description>
+              <LastState Value="282" RealAddress="4E84F678"/>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Offsets>
+                <Offset>528</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>101</ID>
+      <Description>"Self"</Description>
+      <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>008000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>445</ID>
+          <Description>"Name"</Description>
+          <LastState RealAddress="4FB8F14E"/>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>50</Length>
+          <Unicode>1</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Offsets>
+            <Offset>12A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>437</ID>
+          <Description>"UID"</Description>
+          <LastState Value="1523" RealAddress="4FB8F120"/>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Offsets>
+            <Offset>FC</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>486</ID>
+          <Description>"Path"</Description>
+          <LastState RealAddress="4E81F534"/>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>50</Length>
+          <Unicode>1</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"ClassicTK.exe"+002FDB3C</Address>
+          <Offsets>
+            <Offset>1FC</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>522</ID>
+          <Description>"Level"</Description>
+          <LastState Value="81" RealAddress="4E81F5B8"/>
+          <VariableType>Byte</VariableType>
+          <Address>"ClassicTK.exe"+002FDB3C</Address>
+          <Offsets>
+            <Offset>280</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>27</ID>
+          <Description>"Experience"</Description>
+          <LastState Value="466970473" RealAddress="4DE7A314"/>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Offsets>
+            <Offset>114</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"Gold"</Description>
+          <LastState Value="19923" RealAddress="4DE7A31C"/>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Offsets>
+            <Offset>11c</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>301</ID>
+          <Description>"Vita Current"</Description>
+          <LastState Value="4091" RealAddress="4DE7A304"/>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Offsets>
+            <Offset>104</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>102</ID>
+          <Description>"Vita Max"</Description>
+          <LastState Value="4091" RealAddress="4DE7A308"/>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Offsets>
+            <Offset>108</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>105</ID>
+          <Description>"Mana Current"</Description>
+          <LastState Value="3260" RealAddress="4DE7A30C"/>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Offsets>
+            <Offset>10c</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>104</ID>
+          <Description>"Mana Max"</Description>
+          <LastState Value="3260" RealAddress="4DE7A310"/>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Offsets>
+            <Offset>110</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>106</ID>
+          <Description>"Might (broken)"</Description>
+          <LastState Value="179" RealAddress="4DE7A449"/>
+          <Color>0000FF</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Offsets>
+            <Offset>249</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>107</ID>
+          <Description>"Grace (broken)"</Description>
+          <LastState Value="0" RealAddress="4DE7A47A"/>
+          <Color>0000FF</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Offsets>
+            <Offset>27A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>108</ID>
+          <Description>"Will (broken)"</Description>
+          <LastState Value="0" RealAddress="4DE7A47F"/>
+          <Color>0000FF</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Offsets>
+            <Offset>27F</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>426</ID>
+      <Description>"Spell List"</Description>
+      <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>008000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>500</ID>
+          <Description>"Slot Size = 0x148"</Description>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>800080</Color>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>420</ID>
+          <Description>"Slot a"</Description>
+          <LastState RealAddress="4FCF9860"/>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>1000</Length>
+          <Unicode>1</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Offsets>
+            <Offset>16A83C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>421</ID>
+          <Description>"Slot b"</Description>
+          <LastState RealAddress="4FCF99A8"/>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>1000</Length>
+          <Unicode>1</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Offsets>
+            <Offset>16A984</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>433</ID>
+          <Description>"Slot c"</Description>
+          <LastState RealAddress="4FCF9AF0"/>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>1000</Length>
+          <Unicode>1</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Offsets>
+            <Offset>16AACC</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>432</ID>
+          <Description>"Slot d"</Description>
+          <LastState RealAddress="4FCF9C38"/>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>1000</Length>
+          <Unicode>1</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Offsets>
+            <Offset>16AC14</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>431</ID>
+          <Description>"Slot e"</Description>
+          <LastState RealAddress="4FCF9D80"/>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>1000</Length>
+          <Unicode>1</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Offsets>
+            <Offset>16AD5C</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"Status"</Description>
+      <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>008000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>359</ID>
+          <Description>"Buff / Debuff / Aether Statuses"</Description>
+          <LastState RealAddress="0018E08C"/>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>1000</Length>
+          <Unicode>1</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"ClassicTK.exe"+000C1260</Address>
+          <Offsets>
+            <Offset>4A4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>312</ID>
+          <Description>"Most Recently Logged Action"</Description>
+          <LastState RealAddress="00195928"/>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>50</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"ClassicTK.exe"+00044724</Address>
+          <Offsets>
+            <Offset>140</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>331</ID>
+          <Description>"Most Recently Cast or Expired Buff/Debuff"</Description>
+          <LastState RealAddress="00BA5FF8"/>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>50</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"ClassicTK.exe"+002FE8C8</Address>
+          <Offsets>
+            <Offset>C</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>149</ID>
+      <Description>"Targeting"</Description>
+      <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>008000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>469</ID>
+          <Description>"Spell Target UID"</Description>
+          <LastState Value="1523" RealAddress="006FEC58"/>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>ClassicTK.exe+2FEC58</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>468</ID>
+          <Description>"NPC Target UID"</Description>
+          <LastState Value="3221225529" RealAddress="006FEC64"/>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>ClassicTK.exe+2FEC64</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>470</ID>
+          <Description>"Player Target UID"</Description>
+          <LastState Value="1523" RealAddress="006FEC60"/>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>ClassicTK.exe+2FEC60</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
