@@ -99,7 +99,7 @@ namespace TkMemory.Application
         }
 
         /// <summary>
-        /// Terminates the bot in normal circumstances.
+        /// Terminates the bot with experience and mana restoration item usage reports.
         /// </summary>
         /// <param name="client">The TkClient controlled by the bot.</param>
         public static void Terminate(TkClient client)

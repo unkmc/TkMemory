@@ -38,6 +38,7 @@ namespace TkMemory.Integration.TkClient.Properties.Activity
         private const int MaximumSpellCooldownInMilliseconds = 1000;
         private const int MinimumSpellCooldownInMilliseconds = 333;
         private const int MeleeCommandCooldownInMilliseconds = 250;
+        private const int MovementCommandCooldownInMilliseconds = 50;
 
         private readonly ClassMemory _classMemory;
 
@@ -161,6 +162,15 @@ namespace TkMemory.Integration.TkClient.Properties.Activity
         public async Task WaitForMeleeCooldown()
         {
             await WaitForCommandCooldown(MeleeCommandCooldownInMilliseconds);
+        }
+
+        /// <summary>
+        /// Delays any further movement commands until the number of milliseconds since the previous command
+        /// is greater than of the number of milliseconds set for the cooldown on movement commands.
+        /// </summary>
+        public async Task WaitForMovementCooldown()
+        {
+            await WaitForCommandCooldown(MovementCommandCooldownInMilliseconds);
         }
 
         #endregion Public Methods

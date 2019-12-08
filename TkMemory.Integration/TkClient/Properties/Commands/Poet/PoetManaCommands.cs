@@ -108,7 +108,10 @@ namespace TkMemory.Integration.TkClient.Properties.Commands.Poet
                 member.Self.BasePath == TkClient.BasePath.Warrior ||
                 member.Self.BasePath == TkClient.BasePath.Rogue))
             {
-                return await Inspire(fighter);
+                if (await Inspire(fighter))
+                {
+                    return true;
+                }
             }
 
             foreach (var externalMember in Self.Group.ExternalMembers)
@@ -119,7 +122,7 @@ namespace TkMemory.Integration.TkClient.Properties.Commands.Poet
                 if (Self.Group.Mana.GetMax(i) > Self.Group.Vita.GetMax(i) / 2 ||
                     Self.Group.Mana.GetMax(i) > Self.Self.Mana.Max / 2)
                 {
-                    return false;
+                    continue;
                 }
 
                 if (Self.Group.Mana.GetPercent(i) < manaPercentCeiling && await Inspire(externalMember))

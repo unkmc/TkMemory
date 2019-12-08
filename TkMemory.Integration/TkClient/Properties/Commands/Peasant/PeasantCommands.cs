@@ -50,6 +50,7 @@ namespace TkMemory.Integration.TkClient.Properties.Commands.Peasant
             _gatewaySpell = self.Spells.KeySpells.Gateway;
 
             Items = new PeasantItemCommands(self);
+            Movement = new PeasantMovementCommands(self);
         }
 
         /// <summary>
@@ -62,6 +63,7 @@ namespace TkMemory.Integration.TkClient.Properties.Commands.Peasant
             _gatewaySpell = self.Spells.KeySpells.Gateway;
 
             Items = new PeasantItemCommands(self);
+            Movement = new PeasantMovementCommands(self);
         }
 
         /// <summary>
@@ -74,6 +76,7 @@ namespace TkMemory.Integration.TkClient.Properties.Commands.Peasant
             _gatewaySpell = self.Spells.KeySpells.Gateway;
 
             Items = new PeasantItemCommands(self);
+            Movement = new PeasantMovementCommands(self);
         }
 
         /// <summary>
@@ -86,6 +89,7 @@ namespace TkMemory.Integration.TkClient.Properties.Commands.Peasant
             _gatewaySpell = self.Spells.KeySpells.Gateway;
 
             Items = new PeasantItemCommands(self);
+            Movement = new PeasantMovementCommands(self);
         }
 
         #endregion Constructors
@@ -114,6 +118,11 @@ namespace TkMemory.Integration.TkClient.Properties.Commands.Peasant
         /// Commands for using items.
         /// </summary>
         public PeasantItemCommands Items { get; }
+
+        /// <summary>
+        /// Commands for moving the player.
+        /// </summary>
+        public PeasantMovementCommands Movement { get; }
 
         #endregion Properties
 

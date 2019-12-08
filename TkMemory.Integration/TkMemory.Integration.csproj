@@ -74,6 +74,7 @@
     <Compile Include="TkClient\Properties\Commands\Peasant\PeasantHealCommands.cs" />
     <Compile Include="TkClient\Properties\Commands\Peasant\PeasantItemCommands.cs" />
     <Compile Include="TkClient\Properties\Commands\Peasant\PeasantCommands.cs" />
+    <Compile Include="TkClient\Properties\Commands\Peasant\PeasantMovementCommands.cs" />
     <Compile Include="TkClient\Properties\Commands\Poet\PoetAttackCommands.cs" />
     <Compile Include="TkClient\Properties\Commands\Poet\PoetHealCommands.cs" />
     <Compile Include="TkClient\Properties\Commands\Poet\PoetDebuffCommands.cs" />

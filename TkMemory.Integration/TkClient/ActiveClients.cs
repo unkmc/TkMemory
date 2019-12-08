@@ -189,7 +189,7 @@ namespace TkMemory.Integration.TkClient
 
         public MageClient GetMage(string name)
         {
-            var client = Mages.FirstOrDefault(x => string.Equals(name, x.Self.Name));
+            var client = Mages.FirstOrDefault(x => string.Equals(name, x.Self.Name, StringComparison.OrdinalIgnoreCase));
 
             if (client == null)
             {
@@ -208,7 +208,7 @@ namespace TkMemory.Integration.TkClient
 
         public PoetClient GetPoet(string name)
         {
-            var client = Poets.FirstOrDefault(x => string.Equals(name, x.Self.Name));
+            var client = Poets.FirstOrDefault(x => string.Equals(name, x.Self.Name, StringComparison.OrdinalIgnoreCase));
 
             if (client == null)
             {
@@ -227,7 +227,7 @@ namespace TkMemory.Integration.TkClient
 
         public RogueClient GetRogue(string name)
         {
-            var client = Rogues.FirstOrDefault(x => string.Equals(name, x.Self.Name));
+            var client = Rogues.FirstOrDefault(x => string.Equals(name, x.Self.Name, StringComparison.OrdinalIgnoreCase));
 
             if (client == null)
             {
@@ -246,11 +246,38 @@ namespace TkMemory.Integration.TkClient
 
         public WarriorClient GetWarrior(string name)
         {
-            var client = Warriors.FirstOrDefault(x => string.Equals(name, x.Self.Name));
+            var client = Warriors.FirstOrDefault(x => string.Equals(name, x.Self.Name, StringComparison.OrdinalIgnoreCase));
 
             if (client == null)
             {
                 ThrowNullReferenceException("Warrior", name);
+            }
+
+            return client;
+        }
+
+        /// <summary>
+        /// Gets a client from the list of active clients regardless of path.
+        /// The client selected is the one in which the currently logged-in player
+        /// matches the specified name.
+        /// </summary>
+        /// <param name="name">The name of the player logged into the client.</param>
+        /// <returns>The client that is logged in as the specified player.</returns>
+
+        public TkClient GetClient(string name)
+        {
+            var clients = new List<TkClient>();
+
+            clients.AddRange(Mages);
+            clients.AddRange(Poets);
+            clients.AddRange(Rogues);
+            clients.AddRange(Warriors);
+
+            var client = clients.FirstOrDefault(x => string.Equals(name, x.Self.Name, StringComparison.OrdinalIgnoreCase));
+
+            if (client == null)
+            {
+                ThrowNullReferenceException(name);
             }
 
             return client;
@@ -292,6 +319,11 @@ namespace TkMemory.Integration.TkClient
             }
 
             throw new IndexOutOfRangeException(sb.ToString());
+        }
+
+        private void ThrowNullReferenceException(string name)
+        {
+            throw new NullReferenceException($"Could not find an active TK client for named '{name}'.");
         }
 
         private void ThrowNullReferenceException(string type, string name)

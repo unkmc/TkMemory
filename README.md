@@ -31,6 +31,7 @@ TkMemory offers many features not available in any freely-distributed trainer to
 - Most actions can be performed with a single line of code
   - Simple parameters can be used to fine-tune actions and criteria for taking action
   - Trainer behavior can be customized simply by adding/removing/reordering single lines of code
+- Movement commands can be used to automatically follow another multibox player
 - Easy access to all known memory reads for the CTK client without having to manage memory addresses
 - [AutoHotkey.Interop.ClassMemory](https://github.com/elodon/AutoHotkey.Interop.ClassMemory/) sends keystrokes without requiring installation or knowledge of AutoHotkey
 - .NET development offers a better IDE, compiler, and debugger compared to AutoHotkey
