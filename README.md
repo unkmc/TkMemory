@@ -138,7 +138,6 @@ Unfortunately, CTK was shut down before I was able to finish testing TkMemory. T
 - Sleep
 - Rage/Cunning
 - Restore
-- Harden Body
 
 I should also note that while I am reasonably certain that spells are correctly detected and used regardless of alignment, it was prohibitively impractical to test every spell of every alignment. The same is true of items.
 

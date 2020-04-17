@@ -35,12 +35,24 @@ namespace TkMemory.Integration.TkClient.Properties.Activity
         /// <param name="activity">The player's activity data.</param>
         public AsvActivity(TkActivity activity)
         {
+            var hardenArmorBuffs = new List<BuffKeySpell>();
+            hardenArmorBuffs.AddRange(Caster.HardenArmor);
+            hardenArmorBuffs.AddRange(Poet.Asv);
+            hardenArmorBuffs.AddRange(Poet.AsvGroup);
+
+            var sanctuaryBuffs = new List<BuffKeySpell>();
+            sanctuaryBuffs.AddRange(Caster.Sanctuary);
+            sanctuaryBuffs.AddRange(Poet.Asv);
+            sanctuaryBuffs.AddRange(Poet.AsvGroup);
+
             var valorBuffs = new List<BuffKeySpell>();
             valorBuffs.AddRange(Caster.Valor);
             valorBuffs.AddRange(Rogue.Might);
+            valorBuffs.AddRange(Poet.Asv);
+            valorBuffs.AddRange(Poet.AsvGroup);
 
-            HardenArmor = new BuffStatus(activity, Caster.HardenArmor);
-            Sanctuary = new BuffStatus(activity, Caster.Sanctuary);
+            HardenArmor = new BuffStatus(activity, hardenArmorBuffs);
+            Sanctuary = new BuffStatus(activity, sanctuaryBuffs);
             Valor = new BuffStatus(activity, valorBuffs);
         }
 

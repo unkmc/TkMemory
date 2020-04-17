@@ -40,8 +40,7 @@ namespace TkMemory.Domain.Spells.KeySpells.Priorities
             new BuffKeySpell("Harden Armor", "Harden Armor", 30, 300),
             new BuffKeySpell("Harden Armor", "Thicken Skin", 30, 300),
             new BuffKeySpell("Harden Armor", "Shield of Life", 30, 300),
-            new BuffKeySpell("Harden Armor", "Elemental Armor", 30, 300),
-            new BuffKeySpell("Diancecht's Follain", "Diancecht's Follain", 0, 300) // Duration is intentionally inaccurate to the true value of 930 and must stay that way
+            new BuffKeySpell("Harden Armor", "Elemental Armor", 30, 300)
         };
 
         /// <summary>
@@ -85,8 +84,7 @@ namespace TkMemory.Domain.Spells.KeySpells.Priorities
             new BuffKeySpell("Sanctuary", "Sanctuary", 60, 300),
             new BuffKeySpell("Sanctuary", "Protect Soul", 60, 300),
             new BuffKeySpell("Sanctuary", "Guard Life", 60, 300),
-            new BuffKeySpell("Sanctuary", "Magic Shield", 60, 300),
-            new BuffKeySpell("Diancecht's Follain", "Diancecht's Follain", 0, 300) // Duration is intentionally inaccurate to the true value of 930
+            new BuffKeySpell("Sanctuary", "Magic Shield", 60, 300)
         };
 
         /// <summary>
@@ -97,8 +95,7 @@ namespace TkMemory.Domain.Spells.KeySpells.Priorities
             new BuffKeySpell("Valor", "Valor", 30, 300),
             new BuffKeySpell("Valor", "Strengthen", 30, 300),
             new BuffKeySpell("Valor", "Bless Muscles", 30, 300),
-            new BuffKeySpell("Valor", "Power Burst", 30, 300),
-            new BuffKeySpell("Diancecht's Follain", "Diancecht's Follain", 0, 300) // Duration is intentionally inaccurate to the true value of 930
+            new BuffKeySpell("Valor", "Power Burst", 30, 300)
         };
     }
 }

@@ -38,7 +38,7 @@ namespace TkMemory.Integration.TkClient.Properties.Activity
         private const int MaximumSpellCooldownInMilliseconds = 1000;
         private const int MinimumSpellCooldownInMilliseconds = 333;
         private const int MeleeCommandCooldownInMilliseconds = 250;
-        private const int MovementCommandCooldownInMilliseconds = 50;
+        private const int MovementCommandCooldownInMilliseconds = 167;
 
         private readonly ClassMemory _classMemory;
 

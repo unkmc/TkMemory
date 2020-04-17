@@ -26,13 +26,14 @@ namespace TkMemory.Domain.Spells.KeySpells.Priorities
         /// <summary>
         /// Casts ASV on a target.
         /// </summary>
-        public static readonly KeySpell[] Asv =
+        public static readonly BuffKeySpell[] Asv =
         {
-            // TODO: Verify duration and aethers
-            new KeySpell("Sonnet of ReShor", "Sonnet of ReShor", 20000),
-            new KeySpell("Sonnet of ReShor", "Tragedy of Johaih", 20000),
-            new KeySpell("Sonnet of ReShor", "Blason of SeaNymph", 20000),
-            new KeySpell("Sonnet of ReShor", "Haiku of Quantao", 20000)
+            // Durations may not be accurate, but it works better when they all have the same duration as traditional ASV spells.
+            new BuffKeySpell("Sonnet of ReShor", "Sonnet of ReShor", 20000, 300),
+            new BuffKeySpell("Sonnet of ReShor", "Tragedy of Johaih", 20000, 300),
+            new BuffKeySpell("Sonnet of ReShor", "Blason of SeaNymph", 20000, 300),
+            new BuffKeySpell("Sonnet of ReShor", "Haiku of Qantao", 20000, 300),
+            new BuffKeySpell("Diancecht's Follain", "Diancecht's Follain", 0, 300) // True duration is 930
         };
 
         /// <summary>
