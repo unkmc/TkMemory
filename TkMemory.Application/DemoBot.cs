@@ -33,7 +33,7 @@ namespace TkMemory.Application
     {
         #region Fields
 
-        private readonly PoetClient _poet;
+        private readonly RogueClient _client;
         private readonly ActiveClients _clients;
 
         private readonly AutoHotkeyToggle _isBotRunning;
@@ -49,14 +49,16 @@ namespace TkMemory.Application
 
         /// <summary>
         /// Initializes settings and defines hotkeys.
-        /// </summary>
+        /// </summary>.
         public DemoBot()
         {
             TkBotFactory.Initialize();
 
             _clients = new ActiveClients(TkBotFactory.ProcessName);
-            _poet = _clients.GetPoet();
-            _poet.Activity.DefaultCommandCooldown = TkBotFactory.CommandCooldown;
+            //Log.Information("Got list of clients");
+
+            _client = _clients.GetRogue();
+            _client.Activity.DefaultCommandCooldown = TkBotFactory.CommandCooldown;
 
             _isBotRunning = new AutoHotkeyToggle("^F2", "isBotRunning", true);
             _isBotPaused = new AutoHotkeyToggle("F2", "isBotPaused", false);
@@ -91,36 +93,36 @@ namespace TkMemory.Application
         /// </summary>
         public async Task AutoHunt()
         {
-            Log.Information($"Starting Poet bot for {_poet.Self.Name}...");
+            Log.Information($"Starting bot for {_client.Self.Name}...");
 
             while (_isBotRunning.Value)
             {
                 try
                 {
                     if (_isBotPaused.Value) continue;
-                    _poet.UpdateGroup(_clients);
+                    _client.UpdateGroup(_clients);
                     if (await Return()) continue;
                     if (await Gate()) continue;
                     if (await Ring()) continue;
                     MarkExternalGroupMembersForEsuna();
-                    if (await _poet.Commands.Mana.Invoke(20)) continue;
-                    if (await _poet.Commands.Heal.RestoreGroupIfEligible()) continue;
-                    if (await _poet.Commands.Heal.HealGroupIfBelowVitaPercent(20)) continue;
-                    if (await _poet.Commands.Asv.SanctuaryGroup()) continue;
-                    if (await _poet.Commands.Debuffs.AtoneGroup()) continue;
-                    if (await _poet.Commands.Heal.HealGroupIfBelowVitaPercent(30)) continue;
-                    if (await _poet.Commands.Debuffs.RemoveCurseGroup()) continue;
-                    if (await _poet.Commands.Debuffs.CureParalysisGroup()) continue;
-                    if (await _poet.Commands.Debuffs.PurgeGroup()) continue;
-                    if (await _poet.Commands.Asv.HardenArmorGroup()) continue;
-                    if (await _poet.Commands.Debuffs.CurseNpcs()) continue;
-                    if (await _poet.UpdateNpcs(_poet.Spells.KeySpells.Heal)) continue;
-                    if (await _poet.Commands.Debuffs.RemoveVeilGroup()) continue;
-                    if (await _poet.Commands.Heal.HealGroupIfEligible()) continue;
-                    if (await _poet.Commands.Asv.ValorGroup()) continue;
-                    if (await _poet.Commands.Heal.HealGroupIfBelowVitaPercent(90)) continue;
-                    if (await _poet.Commands.Mana.InspireGroup(75)) continue;
-                    await _poet.Commands.HardenBody();
+                    //if (await _client.Commands.Mana.Invoke(20)) continue;
+                    //if (await _client.Commands.Heal.RestoreGroupIfEligible()) continue;
+                    //if (await _client.Commands.Heal.HealGroupIfBelowVitaPercent(20)) continue;
+                    //if (await _client.Commands.Asv.SanctuaryGroup()) continue;
+                    //if (await _client.Commands.Debuffs.AtoneGroup()) continue;
+                    //if (await _client.Commands.Heal.HealGroupIfBelowVitaPercent(30)) continue;
+                    //if (await _client.Commands.Debuffs.RemoveCurseGroup()) continue;
+                    //if (await _client.Commands.Debuffs.CureParalysisGroup()) continue;
+                    //if (await _client.Commands.Debuffs.PurgeGroup()) continue;
+                    //if (await _client.Commands.Asv.HardenArmorGroup()) continue;
+                    //if (await _client.Commands.Debuffs.CurseNpcs()) continue;
+                    if (await _client.UpdateNpcs(_client.Spells.KeySpells.Heal)) continue;
+                    //if (await _client.Commands.Debuffs.RemoveVeilGroup()) continue;
+                    //if (await _client.Commands.Heal.HealGroupIfEligible()) continue;
+                    //if (await _client.Commands.Asv.ValorGroup()) continue;
+                    //if (await _client.Commands.Heal.HealGroupIfBelowVitaPercent(90)) continue;
+                    //if (await _client.Commands.Mana.InspireGroup(75)) continue;
+                    //await _client.Commands.HardenBody();
                 }
 
                 catch (Exception ex)
@@ -129,8 +131,8 @@ namespace TkMemory.Application
                 }
             }
 
-            Log.Information($"Shutting down Poet bot for {_poet.Self.Name}...");
-            TkBotFactory.Terminate(_poet);
+            Log.Information($"Shutting down Poet bot for {_client.Self.Name}...");
+            TkBotFactory.Terminate(_client);
         }
 
         #endregion Public Methods
@@ -145,7 +147,7 @@ namespace TkMemory.Application
             }
 
             _shouldGate.Value = false;
-            return await _poet.Commands.Gateway(PeasantCommands.Gate.South);
+            return await _client.Commands.Gateway(PeasantCommands.Gate.South);
         }
 
         private void MarkExternalGroupMembersForEsuna()
@@ -156,7 +158,7 @@ namespace TkMemory.Application
             }
 
             _shouldEsunaExternalGroupMembers.Value = false;
-            _poet.MarkExternalGroupMembersForEsuna();
+            //_client.MarkExternalGroupMembersForEsuna();
         }
 
         private async Task<bool> Return()
@@ -167,7 +169,7 @@ namespace TkMemory.Application
             }
 
             _shouldReturn.Value = false;
-            return await _poet.Commands.Items.UseYellowScroll();
+            return await _client.Commands.Items.UseYellowScroll();
         }
 
         private async Task<bool> Ring()
@@ -178,7 +180,7 @@ namespace TkMemory.Application
             }
 
             _shouldRing.Value = false;
-            return await _poet.Commands.Items.UseRing();
+            return await _client.Commands.Items.UseRing();
         }
 
         #endregion Private Methods

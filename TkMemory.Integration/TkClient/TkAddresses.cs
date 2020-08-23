@@ -90,8 +90,8 @@ namespace TkMemory.Integration.TkClient
             public static readonly Address Exp = new Address(0x6FE238, new[] { 0x114 });
             public static readonly Address Gold = new Address(0x6FE238, new[] { 0x11C });
             public static readonly Address Level = new Address(0x6FDB3C, new[] { 0x280 });
-            public static readonly Address Name = new Address(0x6DD490, new[] { 0x12A });
-            public static readonly Address Path = new Address(0x6FDB3C, new[] { 0x1FC });
+            public static readonly Address Path = new Address("NexusTK.exe", 0x0029ADFC, new[] { 0x1FC });
+            public static readonly Address Name = new Address("NexusTK.exe", 0x001A2AD4);
             public static readonly Address Uid = new Address(0x6DD490, new[] { 0xFC });
 
             public static class Inventory

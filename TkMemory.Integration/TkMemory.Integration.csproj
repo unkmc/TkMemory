@@ -98,6 +98,7 @@
     <Compile Include="TkClient\Properties\Group\GroupMemberActivity.cs" />
     <Compile Include="TkClient\Properties\Activity\DebuffActivity.cs" />
     <Compile Include="TkClient\Properties\Activity\AsvActivity.cs" />
+    <Compile Include="TkClient\Properties\Spells\PeasantSpells.cs" />
     <Compile Include="TkClient\Properties\Status\KeySpells\InvisibleStatus.cs" />
     <Compile Include="TkClient\Properties\Status\KeySpells\RageStatus.cs" />
     <Compile Include="TkClient\Properties\Status\KeySpells\KeySpellStatus.cs" />
@@ -141,6 +142,7 @@
     <Compile Include="TkClient\TkClientFactory.cs" />
     <Compile Include="TkClient\Properties\Status\TkStatus.cs" />
     <Compile Include="TkClient\Properties\TkTargeting.cs" />
+    <Compile Include="TkClient\PeasantClient.cs" />
     <Compile Include="TkClient\WarriorClient.cs" />
   </ItemGroup>
   <ItemGroup>

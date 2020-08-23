@@ -19,17 +19,16 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using Serilog;
 
 // ReSharper disable UnusedMember.Global
 
-namespace TkMemory.Integration.TkClient
-{
+namespace TkMemory.Integration.TkClient {
     /// <summary>
     /// Provides information about all clients currently running on the same PC as the bot
     /// and to which base path the player from each client belongs.
     /// </summary>
-    public class ActiveClients
-    {
+    public class ActiveClients {
         #region Fields
 
         private readonly string _processName;
@@ -43,23 +42,30 @@ namespace TkMemory.Integration.TkClient
         /// </summary>
         /// <param name="processName">The name of the executable of the client (excluding the
         /// ".exe" extension).</param>
-        public ActiveClients(string processName)
-        {
+        public ActiveClients(string processName) {
             _processName = processName;
 
             Mages = new List<MageClient>();
             Poets = new List<PoetClient>();
             Rogues = new List<RogueClient>();
             Warriors = new List<WarriorClient>();
+            Peasants = new List<PeasantClient>();
 
+            var processes = Process.GetProcesses();
+            Log.Information("All processes ({Length})", processes.Length);
+            foreach (var process in processes) {
+                Log.Information("Name: ({Length})", process.ProcessName);
+            }
+
+            Log.Information("Retrieving process list by name, \"{processName}\"...", processName);
             var clients = Process.GetProcessesByName(processName);
+            Log.Information("Got {Length} clients", clients.Length);
 
-            foreach (var client in clients)
-            {
+            foreach (var client in clients) {
                 var tkClientFactory = new TkClientFactory(client.Id);
                 var path = tkClientFactory.GetBasePath();
-                switch (path)
-                {
+                Log.Information("Found client path, \"{path}\"", path);
+                switch (path) {
                     case TkClient.BasePath.Mage:
                         Mages.Add(tkClientFactory.BuildMage());
                         break;
@@ -71,6 +77,9 @@ namespace TkMemory.Integration.TkClient
                         break;
                     case TkClient.BasePath.Warrior:
                         Warriors.Add(tkClientFactory.BuildWarrior());
+                        break;
+                    case TkClient.BasePath.Peasant:
+                        Peasants.Add(tkClientFactory.BuildPeasant());
                         break;
                     default:
                         throw new Exception($"Invalid path '{tkClientFactory.TkSelf.Path}' could not be classified into a base path.");
@@ -109,6 +118,11 @@ namespace TkMemory.Integration.TkClient
         /// </summary>
         public List<WarriorClient> Warriors { get; }
 
+        /// <summary>
+        /// A list of all clients in which the logged-in player has a base path of Peasant.
+        /// </summary>
+        public List<PeasantClient> Peasants { get; }
+
         #endregion Properties
 
         #region Public Methods
@@ -119,10 +133,8 @@ namespace TkMemory.Integration.TkClient
         /// </summary>
         /// <param name="index">The zero-indexed position within the list to select from.</param>
         /// <returns>The Mage client from the specified position.</returns>
-        public MageClient GetMage(int index = 0)
-        {
-            if (Mages.Count < index + 1)
-            {
+        public MageClient GetMage(int index = 0) {
+            if (Mages.Count < index + 1) {
                 ThrowIndexOutOfRangeException("Mage", index, Mages.Count);
             }
 
@@ -136,10 +148,8 @@ namespace TkMemory.Integration.TkClient
         /// <param name="index">The zero-indexed position within the list to select from.</param>
         /// <returns>The Poet client from the specified position.</returns>
 
-        public PoetClient GetPoet(int index = 0)
-        {
-            if (Poets.Count < index + 1)
-            {
+        public PoetClient GetPoet(int index = 0) {
+            if (Poets.Count < index + 1) {
                 ThrowIndexOutOfRangeException("Poet", index, Poets.Count);
             }
 
@@ -153,10 +163,8 @@ namespace TkMemory.Integration.TkClient
         /// <param name="index">The zero-indexed position within the list to select from.</param>
         /// <returns>The Rogue client from the specified position.</returns>
 
-        public RogueClient GetRogue(int index = 0)
-        {
-            if (Rogues.Count < index + 1)
-            {
+        public RogueClient GetRogue(int index = 0) {
+            if (Rogues.Count < index + 1) {
                 ThrowIndexOutOfRangeException("Rogue", index, Rogues.Count);
             }
 
@@ -170,14 +178,27 @@ namespace TkMemory.Integration.TkClient
         /// <param name="index">The zero-indexed position within the list to select from.</param>
         /// <returns>The Warrior client from the specified position.</returns>
 
-        public WarriorClient GetWarrior(int index = 0)
-        {
-            if (Warriors.Count < index + 1)
-            {
+        public WarriorClient GetWarrior(int index = 0) {
+            if (Warriors.Count < index + 1) {
                 ThrowIndexOutOfRangeException("Warrior", index, Warriors.Count);
             }
 
             return Warriors[index];
+        }
+
+        /// <summary>
+        /// Gets a Peasant client from the list of active Peasant clients. The first client in the
+        /// list will be selected unless a specific position within the list is specified.
+        /// </summary>
+        /// <param name="index">The zero-indexed position within the list to select from.</param>
+        /// <returns>The Peasant client from the specified position.</returns>
+
+        public PeasantClient GetPeasant(int index = 0) {
+            if (Peasants.Count < index + 1) {
+                ThrowIndexOutOfRangeException("Peasant", index, Peasants.Count);
+            }
+
+            return Peasants[index];
         }
 
         /// <summary>
@@ -187,12 +208,10 @@ namespace TkMemory.Integration.TkClient
         /// <param name="name">The name of the player logged into the client.</param>
         /// <returns>The Mage client that is logged in as the specified player.</returns>
 
-        public MageClient GetMage(string name)
-        {
+        public MageClient GetMage(string name) {
             var client = Mages.FirstOrDefault(x => string.Equals(name, x.Self.Name, StringComparison.OrdinalIgnoreCase));
 
-            if (client == null)
-            {
+            if (client == null) {
                 ThrowNullReferenceException("Mage", name);
             }
 
@@ -206,12 +225,10 @@ namespace TkMemory.Integration.TkClient
         /// <param name="name">The name of the player logged into the client.</param>
         /// <returns>The Poet client that is logged in as the specified player.</returns>
 
-        public PoetClient GetPoet(string name)
-        {
+        public PoetClient GetPoet(string name) {
             var client = Poets.FirstOrDefault(x => string.Equals(name, x.Self.Name, StringComparison.OrdinalIgnoreCase));
 
-            if (client == null)
-            {
+            if (client == null) {
                 ThrowNullReferenceException("Poet", name);
             }
 
@@ -225,12 +242,10 @@ namespace TkMemory.Integration.TkClient
         /// <param name="name">The name of the player logged into the client.</param>
         /// <returns>The Rogue client that is logged in as the specified player.</returns>
 
-        public RogueClient GetRogue(string name)
-        {
+        public RogueClient GetRogue(string name) {
             var client = Rogues.FirstOrDefault(x => string.Equals(name, x.Self.Name, StringComparison.OrdinalIgnoreCase));
 
-            if (client == null)
-            {
+            if (client == null) {
                 ThrowNullReferenceException("Rogue", name);
             }
 
@@ -244,13 +259,28 @@ namespace TkMemory.Integration.TkClient
         /// <param name="name">The name of the player logged into the client.</param>
         /// <returns>The Warrior client that is logged in as the specified player.</returns>
 
-        public WarriorClient GetWarrior(string name)
-        {
+        public WarriorClient GetWarrior(string name) {
             var client = Warriors.FirstOrDefault(x => string.Equals(name, x.Self.Name, StringComparison.OrdinalIgnoreCase));
 
-            if (client == null)
-            {
+            if (client == null) {
                 ThrowNullReferenceException("Warrior", name);
+            }
+
+            return client;
+        }
+
+        /// <summary>
+        /// Gets a Peasant client from the list of active Peasant clients. The client selected is the
+        /// one in which the currently logged-in player matches the specified name.
+        /// </summary>
+        /// <param name="name">The name of the player logged into the client.</param>
+        /// <returns>The Peasant client that is logged in as the specified player.</returns>
+
+        public PeasantClient GetPeasant(string name) {
+            var client = Peasants.FirstOrDefault(x => string.Equals(name, x.Self.Name, StringComparison.OrdinalIgnoreCase));
+
+            if (client == null) {
+                ThrowNullReferenceException("Peasant", name);
             }
 
             return client;
@@ -264,8 +294,7 @@ namespace TkMemory.Integration.TkClient
         /// <param name="name">The name of the player logged into the client.</param>
         /// <returns>The client that is logged in as the specified player.</returns>
 
-        public TkClient GetClient(string name)
-        {
+        public TkClient GetClient(string name) {
             var clients = new List<TkClient>();
 
             clients.AddRange(Mages);
@@ -275,8 +304,7 @@ namespace TkMemory.Integration.TkClient
 
             var client = clients.FirstOrDefault(x => string.Equals(name, x.Self.Name, StringComparison.OrdinalIgnoreCase));
 
-            if (client == null)
-            {
+            if (client == null) {
                 ThrowNullReferenceException(name);
             }
 
@@ -287,8 +315,7 @@ namespace TkMemory.Integration.TkClient
 
         #region Private Methods
 
-        private IEnumerable<TkClient> GetClients()
-        {
+        private IEnumerable<TkClient> GetClients() {
             var clients = new List<TkClient>();
 
             clients.AddRange(Mages);
@@ -299,14 +326,12 @@ namespace TkMemory.Integration.TkClient
             return clients;
         }
 
-        private void ThrowIndexOutOfRangeException(string type, int index, int count)
-        {
+        private void ThrowIndexOutOfRangeException(string type, int index, int count) {
             var sb = new StringBuilder();
 
             sb.Append($"Could not get a {_processName} {type} client at index {index}. ");
 
-            switch (count)
-            {
+            switch (count) {
                 case 0:
                     sb.Append($"No active {_processName} {type} clients were found.");
                     break;
@@ -321,13 +346,11 @@ namespace TkMemory.Integration.TkClient
             throw new IndexOutOfRangeException(sb.ToString());
         }
 
-        private void ThrowNullReferenceException(string name)
-        {
+        private void ThrowNullReferenceException(string name) {
             throw new NullReferenceException($"Could not find an active TK client for named '{name}'.");
         }
 
-        private void ThrowNullReferenceException(string type, string name)
-        {
+        private void ThrowNullReferenceException(string type, string name) {
             throw new NullReferenceException($"Could not find an active {_processName} client for a {type} named '{name}'.");
         }
 

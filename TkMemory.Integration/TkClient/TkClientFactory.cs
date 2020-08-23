@@ -108,9 +108,17 @@ namespace TkMemory.Integration.TkClient
         /// </summary>
         /// <returns>The Warrior client that was built.</returns>
 
-        public WarriorClient BuildWarrior()
-        {
+        public WarriorClient BuildWarrior() {
             return new WarriorClient(ClassMemory);
+        }
+
+        /// <summary>
+        /// Builds a Peasant-specific client.
+        /// </summary>
+        /// <returns>The Peasant client that was built.</returns>
+
+        public PeasantClient BuildPeasant() {
+            return new PeasantClient(ClassMemory);
         }
 
         /// <summary>

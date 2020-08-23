@@ -28,7 +28,7 @@ namespace TkMemory.Integration.TkClient.Properties.Commands.Peasant
     /// while command activity is not. But those properties/methods are cross-listed here for
     /// convenience due to the subject matter overlap between commands and TkActivity. 
     /// </summary>
-    public abstract class PeasantCommands
+    public class PeasantCommands
     {
         #region Fields
 
@@ -43,7 +43,7 @@ namespace TkMemory.Integration.TkClient.Properties.Commands.Peasant
         /// Assigns spells and items from the Mage's spell and item inventories.
         /// </summary>
         /// <param name="self">The game client data for the Mage.</param>
-        protected PeasantCommands(MageClient self)
+        public PeasantCommands(MageClient self)
         {
             Self = self;
 
@@ -57,7 +57,7 @@ namespace TkMemory.Integration.TkClient.Properties.Commands.Peasant
         /// Assigns spells and items from the Poet's spell and item inventories.
         /// </summary>
         /// <param name="self">The game client data for the Poet.</param>
-        protected PeasantCommands(PoetClient self)
+        public PeasantCommands(PoetClient self)
         {
             Self = self;
             _gatewaySpell = self.Spells.KeySpells.Gateway;
@@ -70,7 +70,7 @@ namespace TkMemory.Integration.TkClient.Properties.Commands.Peasant
         /// Assigns spells and items from the Rogue's spell and item inventories.
         /// </summary>
         /// <param name="self">The game client data for the Rogue.</param>
-        protected PeasantCommands(RogueClient self)
+        public PeasantCommands(RogueClient self)
         {
             Self = self;
             _gatewaySpell = self.Spells.KeySpells.Gateway;
@@ -83,8 +83,19 @@ namespace TkMemory.Integration.TkClient.Properties.Commands.Peasant
         /// /// Assigns spells and items from the Warrior's spell and item inventories.
         /// </summary>
         /// <param name="self">The game client data for the Warrior.</param>
-        protected PeasantCommands(WarriorClient self)
-        {
+        public PeasantCommands(WarriorClient self) {
+            Self = self;
+            _gatewaySpell = self.Spells.KeySpells.Gateway;
+
+            Items = new PeasantItemCommands(self);
+            Movement = new PeasantMovementCommands(self);
+        }
+
+        /// <summary>
+        /// /// Assigns spells and items from the Peasant's spell and item inventories.
+        /// </summary>
+        /// <param name="self">The game client data for the Peasant.</param>
+        public PeasantCommands(PeasantClient self) {
             Self = self;
             _gatewaySpell = self.Spells.KeySpells.Gateway;
 

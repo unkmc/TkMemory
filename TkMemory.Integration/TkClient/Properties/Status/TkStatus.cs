@@ -27,7 +27,7 @@ namespace TkMemory.Integration.TkClient.Properties.Status
     /// Several properties are cross-listed with TkActivity properties, but this class is the only access to
     /// fully player-controlled status effects (e.g. Fury, Rage, Cunning, Invoke, etc.).
     /// </summary>
-    public abstract class TkStatus
+    public class TkStatus
     {
         #region Fields
 
@@ -41,7 +41,7 @@ namespace TkMemory.Integration.TkClient.Properties.Status
         /// Initializes a player's status data.
         /// </summary>
         /// <param name="activity">The activity data of the player.</param>
-        protected TkStatus(TkActivity activity)
+        public TkStatus(TkActivity activity)
         {
             Activity = activity;
         }

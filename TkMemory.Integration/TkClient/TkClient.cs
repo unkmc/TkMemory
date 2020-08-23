@@ -97,7 +97,7 @@ namespace TkMemory.Integration.TkClient
         /// <summary>
         /// The base path that a player has chosen excluding subpath and mark rank.
         /// </summary>
-        public enum BasePath { Warrior, Rogue, Mage, Poet }
+        public enum BasePath { Warrior, Rogue, Mage, Poet, Peasant }
 
         #endregion Enums
 

@@ -19,7 +19,7 @@
           <Unicode>1</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
-          <Address>"ClassicTK.exe"+002FE788</Address>
+          <Address>"NexusTK.exe"+002FE788</Address>
           <Offsets>
             <Offset>12C</Offset>
           </Offsets>
@@ -34,7 +34,7 @@
           <Unicode>1</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
-          <Address>"ClassicTK.exe"+001C07D4</Address>
+          <Address>"NexusTK.exe"+001C07D4</Address>
           <Offsets>
             <Offset>174</Offset>
           </Offsets>
@@ -59,7 +59,7 @@
           <Unicode>1</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
-          <Address>"ClassicTK.exe"+002FE204</Address>
+          <Address>"NexusTK.exe"+002FE204</Address>
           <Offsets>
             <Offset>F8</Offset>
           </Offsets>
@@ -70,7 +70,7 @@
           <LastState Value="4" RealAddress="4DE7A2FC"/>
           <Color>000000</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Address>"NexusTK.exe"+002FE238</Address>
           <Offsets>
             <Offset>FC</Offset>
           </Offsets>
@@ -81,7 +81,7 @@
           <LastState Value="5" RealAddress="4DE7A300"/>
           <Color>000000</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Address>"NexusTK.exe"+002FE238</Address>
           <Offsets>
             <Offset>100</Offset>
           </Offsets>
@@ -91,7 +91,7 @@
           <Description>"Time"</Description>
           <LastState Value="5" RealAddress="4E11E600"/>
           <VariableType>2 Bytes</VariableType>
-          <Address>"ClassicTK.exe"+002FE168</Address>
+          <Address>"NexusTK.exe"+002FE168</Address>
           <Offsets>
             <Offset>F8</Offset>
           </Offsets>
@@ -118,7 +118,7 @@
           <Description>"Group Size"</Description>
           <LastState Value="0" RealAddress="4FB92CD4"/>
           <VariableType>4 Bytes</VariableType>
-          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Address>"NexusTK.exe"+002DD490</Address>
           <Offsets>
             <Offset>3CB0</Offset>
           </Offsets>
@@ -142,7 +142,7 @@
               <Unicode>1</Unicode>
               <CodePage>0</CodePage>
               <ZeroTerminate>1</ZeroTerminate>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>21C</Offset>
               </Offsets>
@@ -153,7 +153,7 @@
               <LastState Value="0" RealAddress="4FB8F23C"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>218</Offset>
               </Offsets>
@@ -164,7 +164,7 @@
               <LastState Value="0" RealAddress="4FB8F35C"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>338</Offset>
               </Offsets>
@@ -175,7 +175,7 @@
               <LastState Value="0" RealAddress="4FB8F358"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>334</Offset>
               </Offsets>
@@ -186,7 +186,7 @@
               <LastState Value="0" RealAddress="4FB8F364"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>340</Offset>
               </Offsets>
@@ -197,7 +197,7 @@
               <LastState Value="0" RealAddress="4FB8F360"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>33C</Offset>
               </Offsets>
@@ -223,7 +223,7 @@
               <Unicode>1</Unicode>
               <CodePage>0</CodePage>
               <ZeroTerminate>1</ZeroTerminate>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>348</Offset>
               </Offsets>
@@ -234,7 +234,7 @@
               <LastState Value="0" RealAddress="4FB8F368"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>344</Offset>
               </Offsets>
@@ -245,7 +245,7 @@
               <LastState Value="0" RealAddress="4FB8F488"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>464</Offset>
               </Offsets>
@@ -256,7 +256,7 @@
               <LastState Value="0" RealAddress="4FB8F484"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>460</Offset>
               </Offsets>
@@ -267,7 +267,7 @@
               <LastState Value="0" RealAddress="4FB8F490"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>46c</Offset>
               </Offsets>
@@ -278,7 +278,7 @@
               <LastState Value="0" RealAddress="4FB8F48C"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>468</Offset>
               </Offsets>
@@ -304,7 +304,7 @@
               <Unicode>1</Unicode>
               <CodePage>0</CodePage>
               <ZeroTerminate>1</ZeroTerminate>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>474</Offset>
               </Offsets>
@@ -315,7 +315,7 @@
               <LastState Value="0" RealAddress="4FB8F494"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>470</Offset>
               </Offsets>
@@ -326,7 +326,7 @@
               <LastState Value="0" RealAddress="4FB8F4A0"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>47C</Offset>
               </Offsets>
@@ -337,7 +337,7 @@
               <LastState Value="0" RealAddress="4FB8F49C"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>478</Offset>
               </Offsets>
@@ -348,7 +348,7 @@
               <LastState Value="0" RealAddress="4FB8F4A8"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>484</Offset>
               </Offsets>
@@ -359,7 +359,7 @@
               <LastState Value="0" RealAddress="4FB8F4A4"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>480</Offset>
               </Offsets>
@@ -401,7 +401,7 @@
               <Unicode>1</Unicode>
               <CodePage>0</CodePage>
               <ZeroTerminate>1</ZeroTerminate>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>16410A</Offset>
               </Offsets>
@@ -416,7 +416,7 @@
               <Unicode>1</Unicode>
               <CodePage>0</CodePage>
               <ZeroTerminate>1</ZeroTerminate>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>1641AA</Offset>
               </Offsets>
@@ -427,7 +427,7 @@
               <LastState Value="1" RealAddress="4FCF3310"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>1642EC</Offset>
               </Offsets>
@@ -452,7 +452,7 @@
               <Unicode>1</Unicode>
               <CodePage>0</CodePage>
               <ZeroTerminate>1</ZeroTerminate>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>164306</Offset>
               </Offsets>
@@ -467,7 +467,7 @@
               <Unicode>1</Unicode>
               <CodePage>0</CodePage>
               <ZeroTerminate>1</ZeroTerminate>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>1643A6</Offset>
               </Offsets>
@@ -478,7 +478,7 @@
               <LastState Value="1" RealAddress="4FCF350C"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002DD490</Address>
+              <Address>"NexusTK.exe"+002DD490</Address>
               <Offsets>
                 <Offset>1644E8</Offset>
               </Offsets>
@@ -508,7 +508,7 @@
           <LastState Value="1" RealAddress="4E61FDC4"/>
           <Color>000000</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>"ClassicTK.exe"+002DD4AC</Address>
+          <Address>"NexusTK.exe"+002DD4AC</Address>
           <Offsets>
             <Offset>C</Offset>
             <Offset>38</Offset>
@@ -533,7 +533,7 @@
               <Unicode>1</Unicode>
               <CodePage>0</CodePage>
               <ZeroTerminate>1</ZeroTerminate>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>12E</Offset>
               </Offsets>
@@ -544,7 +544,7 @@
               <LastState Value="3221225529" RealAddress="4E84F250"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>100</Offset>
               </Offsets>
@@ -555,7 +555,7 @@
               <LastState Value="2" RealAddress="4E84F319"/>
               <Color>000000</Color>
               <VariableType>2 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>1C9</Offset>
               </Offsets>
@@ -566,7 +566,7 @@
               <LastState Value="14" RealAddress="4E84F254"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>104</Offset>
               </Offsets>
@@ -577,7 +577,7 @@
               <LastState Value="9" RealAddress="4E84F258"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>108</Offset>
               </Offsets>
@@ -588,7 +588,7 @@
               <LastState Value="725" RealAddress="4E84F25C"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>10C</Offset>
               </Offsets>
@@ -599,7 +599,7 @@
               <LastState Value="438" RealAddress="4E84F260"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>110</Offset>
               </Offsets>
@@ -624,7 +624,7 @@
               <Unicode>1</Unicode>
               <CodePage>0</CodePage>
               <ZeroTerminate>1</ZeroTerminate>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>33A</Offset>
               </Offsets>
@@ -635,7 +635,7 @@
               <LastState Value="3221225528" RealAddress="4E84F45C"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>30C</Offset>
               </Offsets>
@@ -646,7 +646,7 @@
               <LastState Value="2" RealAddress="4E84F525"/>
               <Color>000000</Color>
               <VariableType>2 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>3D5</Offset>
               </Offsets>
@@ -657,7 +657,7 @@
               <LastState Value="14" RealAddress="4E84F460"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>310</Offset>
               </Offsets>
@@ -668,7 +668,7 @@
               <LastState Value="5" RealAddress="4E84F464"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>314</Offset>
               </Offsets>
@@ -679,7 +679,7 @@
               <LastState Value="726" RealAddress="4E84F468"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>318</Offset>
               </Offsets>
@@ -690,7 +690,7 @@
               <LastState Value="231" RealAddress="4E84F46C"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>31C</Offset>
               </Offsets>
@@ -715,7 +715,7 @@
               <Unicode>1</Unicode>
               <CodePage>0</CodePage>
               <ZeroTerminate>1</ZeroTerminate>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>546</Offset>
               </Offsets>
@@ -726,7 +726,7 @@
               <LastState Value="2350" RealAddress="4E84F668"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>518</Offset>
               </Offsets>
@@ -737,7 +737,7 @@
               <LastState Value="1" RealAddress="4E84F731"/>
               <Color>000000</Color>
               <VariableType>2 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>5E1</Offset>
               </Offsets>
@@ -748,7 +748,7 @@
               <LastState Value="17" RealAddress="4E84F66C"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>51C</Offset>
               </Offsets>
@@ -759,7 +759,7 @@
               <LastState Value="6" RealAddress="4E84F670"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>520</Offset>
               </Offsets>
@@ -770,7 +770,7 @@
               <LastState Value="905" RealAddress="4E84F674"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>524</Offset>
               </Offsets>
@@ -781,7 +781,7 @@
               <LastState Value="282" RealAddress="4E84F678"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
-              <Address>"ClassicTK.exe"+002FE61C</Address>
+              <Address>"NexusTK.exe"+002FE61C</Address>
               <Offsets>
                 <Offset>528</Offset>
               </Offsets>
@@ -808,7 +808,7 @@
           <Unicode>1</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
-          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Address>"NexusTK.exe"+002DD490</Address>
           <Offsets>
             <Offset>12A</Offset>
           </Offsets>
@@ -819,7 +819,7 @@
           <LastState Value="1523" RealAddress="4FB8F120"/>
           <Color>000000</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Address>"NexusTK.exe"+002DD490</Address>
           <Offsets>
             <Offset>FC</Offset>
           </Offsets>
@@ -834,7 +834,7 @@
           <Unicode>1</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
-          <Address>"ClassicTK.exe"+002FDB3C</Address>
+          <Address>"NexusTK.exe"+002FDB3C</Address>
           <Offsets>
             <Offset>1FC</Offset>
           </Offsets>
@@ -844,7 +844,7 @@
           <Description>"Level"</Description>
           <LastState Value="81" RealAddress="4E81F5B8"/>
           <VariableType>Byte</VariableType>
-          <Address>"ClassicTK.exe"+002FDB3C</Address>
+          <Address>"NexusTK.exe"+002FDB3C</Address>
           <Offsets>
             <Offset>280</Offset>
           </Offsets>
@@ -855,7 +855,7 @@
           <LastState Value="466970473" RealAddress="4DE7A314"/>
           <Color>000000</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Address>"NexusTK.exe"+002FE238</Address>
           <Offsets>
             <Offset>114</Offset>
           </Offsets>
@@ -866,7 +866,7 @@
           <LastState Value="19923" RealAddress="4DE7A31C"/>
           <Color>000000</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Address>"NexusTK.exe"+002FE238</Address>
           <Offsets>
             <Offset>11c</Offset>
           </Offsets>
@@ -877,7 +877,7 @@
           <LastState Value="4091" RealAddress="4DE7A304"/>
           <Color>000000</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Address>"NexusTK.exe"+002FE238</Address>
           <Offsets>
             <Offset>104</Offset>
           </Offsets>
@@ -888,7 +888,7 @@
           <LastState Value="4091" RealAddress="4DE7A308"/>
           <Color>000000</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Address>"NexusTK.exe"+002FE238</Address>
           <Offsets>
             <Offset>108</Offset>
           </Offsets>
@@ -899,7 +899,7 @@
           <LastState Value="3260" RealAddress="4DE7A30C"/>
           <Color>000000</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Address>"NexusTK.exe"+002FE238</Address>
           <Offsets>
             <Offset>10c</Offset>
           </Offsets>
@@ -910,7 +910,7 @@
           <LastState Value="3260" RealAddress="4DE7A310"/>
           <Color>000000</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Address>"NexusTK.exe"+002FE238</Address>
           <Offsets>
             <Offset>110</Offset>
           </Offsets>
@@ -921,7 +921,7 @@
           <LastState Value="179" RealAddress="4DE7A449"/>
           <Color>0000FF</Color>
           <VariableType>Byte</VariableType>
-          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Address>"NexusTK.exe"+002FE238</Address>
           <Offsets>
             <Offset>249</Offset>
           </Offsets>
@@ -932,7 +932,7 @@
           <LastState Value="0" RealAddress="4DE7A47A"/>
           <Color>0000FF</Color>
           <VariableType>Byte</VariableType>
-          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Address>"NexusTK.exe"+002FE238</Address>
           <Offsets>
             <Offset>27A</Offset>
           </Offsets>
@@ -943,7 +943,7 @@
           <LastState Value="0" RealAddress="4DE7A47F"/>
           <Color>0000FF</Color>
           <VariableType>Byte</VariableType>
-          <Address>"ClassicTK.exe"+002FE238</Address>
+          <Address>"NexusTK.exe"+002FE238</Address>
           <Offsets>
             <Offset>27F</Offset>
           </Offsets>
@@ -975,7 +975,7 @@
           <Unicode>1</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
-          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Address>"NexusTK.exe"+002DD490</Address>
           <Offsets>
             <Offset>16A83C</Offset>
           </Offsets>
@@ -990,7 +990,7 @@
           <Unicode>1</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
-          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Address>"NexusTK.exe"+002DD490</Address>
           <Offsets>
             <Offset>16A984</Offset>
           </Offsets>
@@ -1005,7 +1005,7 @@
           <Unicode>1</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
-          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Address>"NexusTK.exe"+002DD490</Address>
           <Offsets>
             <Offset>16AACC</Offset>
           </Offsets>
@@ -1020,7 +1020,7 @@
           <Unicode>1</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
-          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Address>"NexusTK.exe"+002DD490</Address>
           <Offsets>
             <Offset>16AC14</Offset>
           </Offsets>
@@ -1035,7 +1035,7 @@
           <Unicode>1</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
-          <Address>"ClassicTK.exe"+002DD490</Address>
+          <Address>"NexusTK.exe"+002DD490</Address>
           <Offsets>
             <Offset>16AD5C</Offset>
           </Offsets>
@@ -1060,7 +1060,7 @@
           <Unicode>1</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
-          <Address>"ClassicTK.exe"+000C1260</Address>
+          <Address>"NexusTK.exe"+000C1260</Address>
           <Offsets>
             <Offset>4A4</Offset>
           </Offsets>
@@ -1075,7 +1075,7 @@
           <Unicode>0</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
-          <Address>"ClassicTK.exe"+00044724</Address>
+          <Address>"NexusTK.exe"+00044724</Address>
           <Offsets>
             <Offset>140</Offset>
           </Offsets>
@@ -1090,7 +1090,7 @@
           <Unicode>0</Unicode>
           <CodePage>0</CodePage>
           <ZeroTerminate>1</ZeroTerminate>
-          <Address>"ClassicTK.exe"+002FE8C8</Address>
+          <Address>"NexusTK.exe"+002FE8C8</Address>
           <Offsets>
             <Offset>C</Offset>
           </Offsets>
@@ -1111,7 +1111,7 @@
           <LastState Value="1523" RealAddress="006FEC58"/>
           <Color>000000</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>ClassicTK.exe+2FEC58</Address>
+          <Address>NexusTK.exe+2FEC58</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>468</ID>
@@ -1119,7 +1119,7 @@
           <LastState Value="3221225529" RealAddress="006FEC64"/>
           <Color>000000</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>ClassicTK.exe+2FEC64</Address>
+          <Address>NexusTK.exe+2FEC64</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>470</ID>
@@ -1127,7 +1127,7 @@
           <LastState Value="1523" RealAddress="006FEC60"/>
           <Color>000000</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>ClassicTK.exe+2FEC60</Address>
+          <Address>NexusTK.exe+2FEC60</Address>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>

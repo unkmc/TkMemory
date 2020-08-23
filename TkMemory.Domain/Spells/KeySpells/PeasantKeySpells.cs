@@ -25,7 +25,7 @@ namespace TkMemory.Domain.Spells.KeySpells
     /// <summary>
     /// A collection of key spells known to a player of any path.
     /// </summary>
-    public abstract class PeasantKeySpells
+    public class PeasantKeySpells
     {
         #region Fields
 
@@ -35,7 +35,7 @@ namespace TkMemory.Domain.Spells.KeySpells
 
         #region Constructors
 
-        protected PeasantKeySpells(List<Spell> spells)
+        public PeasantKeySpells(List<Spell> spells)
         {
             Spells = spells;
 
